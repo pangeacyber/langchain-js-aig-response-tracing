@@ -7,7 +7,6 @@ export class PangeaAiGuardRunnable<
   RunInput extends AIMessage = AIMessage,
 > extends Runnable<RunInput, RunInput> {
   static lc_name() {
-    // biome-ignore lint/nursery/noSecrets: false positive.
     return 'PangeaAiGuardRunnable';
   }
 
