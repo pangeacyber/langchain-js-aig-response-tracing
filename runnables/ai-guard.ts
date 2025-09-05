@@ -12,7 +12,7 @@ export class PangeaAiGuardRunnable<
 
   lc_namespace = ['pangeacyber', 'runnables'];
 
-  private client;
+  private readonly client;
 
   constructor(token: string, domain = 'aws.us.pangea.cloud') {
     super();
